@@ -1,0 +1,106 @@
+.api-config {
+    margin-bottom: 20px;
+}
+
+.api-config .inside {
+    padding: 0 12px 12px;
+}
+
+.api-config table.form-table {
+    margin-top: 0;
+}
+
+.api-config .form-table th {
+    padding: 20px 10px 20px 0;
+    width: 200px;
+}
+
+.api-config .form-table td {
+    padding: 15px 10px;
+}
+
+.api-config textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+.field-mapping-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.api-response-structure,
+.post-fields {
+    width: 48%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.api-response-structure ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.api-response-structure li {
+    margin: 5px 0;
+}
+
+.api-response-structure details {
+    margin-bottom: 5px;
+}
+
+.api-response-structure summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.field {
+    padding: 5px;
+    margin: 5px 0;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.api-response-structure .field {
+    cursor: grab;
+    padding: 5px;
+    margin: 5px 0;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.api-response-structure .field:active {
+    cursor: grabbing;
+}
+
+.post-fields .field {
+    cursor: default;
+    padding: 5px;
+    margin: 5px 0;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.post-fields .field.ui-droppable-active {
+    background: #e1e1e1;
+}
+
+.post-fields .field.ui-droppable-hover {
+    background: #d1d1d1;
+    border-color: #999;
+}
+
+.post-fields .field.mapped {
+    background: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.api-response-structure .field.dragging {
+    opacity: 0.5;
+}
